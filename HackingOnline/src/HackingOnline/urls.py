@@ -16,9 +16,10 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from pagina.views import inicio
+from pagina.views import inicio, plataforma
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
 	url(r'^$', inicio),
+	url(r'^plataforma$', plataforma),
 ]
