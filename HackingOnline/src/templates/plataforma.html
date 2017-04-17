@@ -89,6 +89,29 @@
                     <div class="col-lg-12">
                         <h1 class="page-header">HackingOnline</h1>
                     </div>
+
+
+<p>@Uservzk80</p>
+
+<form action="" method="POST">
+ {% csrf_token %}
+{{cmsmap}}
+<button type="submit">Enviar</button>
+</form>
+
+
+<div class="col-md-12">
+    
+    <div class="header">
+        
+        <h4>Resultados</h4>
+    <p class="descripcion">Estos son los datos obtenidos:</p>
+    </div>
+
+<pre>{{output}}</pre>
+
+
+</div>
                     <!-- /.col-lg-12 -->
                 </div>
                 <!-- /.row -->
